@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        function show(){
+        let a=(document.getElementById("firstname").value)
+        let b=(document.getElementById("secondname").value)
+       let c=(document.getElementById("phoneno").value)
+       let d=(document.getElementById("city").value)
+       let e=(document.getElementById("state").value)
+       let f=(document.getElementById("Nationality").value)
+       let g=(document.getElementById("Aadharno").value)
+       let h=(document.getElementById("pincode").value)
+       
+    
+        if(a=="")
+        {
+            
+            alert("please enter your firstname")
+            
+        }
+        else if(b=="")
+        {
+            
+            alert("please enter your second name")
+            
+         }
+         else if(c=="")
+        {    
+            alert("please enter your phone no")        
+         }
+         
+         else if(d=="")
+        {    
+            alert("please enter your city")        
+         
+    }
+    else if(e=="")
+        {    
+            alert("please enter your state")        
+         
+    }
+    else if(f=="")
+        {    
+            alert("please enter your Nationality")        
+         
+    }
+    else if(g=="")
+        {    
+            alert("please enter your aadhar")        
+         
+    }
+    else if(h=="")
+        {    
+            alert("please enter your pincode")        
+         
+    }
+}
+        
+   
+    </script>
+       
+    
+    <link rel="stylesheet"type="text/css" href="externalcssre.css">
+</head>
+<body >
+    <table class="ad">
+    <h1 id="as">REGISTRATION FORM</h1>
+    <tr>
+        
+        <td><label>First Name: </label></td>
+        <td><input id="firstname"  type="text" class="form-control border-success" placeholder="enter first name"></td>
+    </tr>
+    <tr> 
+        <td><label>Second Name:</label></td>
+        <td><input id="secondname" type="text" class="form-control border-success" placeholder="enter seco name"></td>  
+    </tr>
+    <tr>
+        <td><label>Gender:</label></td>
+        <td><input type="radio">
+            <label>male</label>
+            <input type="radio">
+            <label>female</label></td>  
+    </tr>
+    <tr>
+        <td><label>DOB:</label></td>
+        <td><input type="date"></td>
+    </tr>
+    <tr>
+        <td><label >Phone No:</label></td>
+        <td><input id="phoneno" type="text" class="form-control border-success" placeholder="enter phno"></td>
+    </tr>
+    <tr>
+        <div class="mb-4">
+            <td><label for="exampleFormControlInput1" class="form-label">Email address</label></td>
+            <td><input type="email" class="form-control border-success" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+          </div>
+    </tr>
+    <tr>
+        <td><label>city:</label></td>
+        <td><input id="city"  type="text" class="form-control border-success" placeholder="enter city"></td>
+    </tr>
+    <tr>
+        <td><label>state:</label></td>
+        <td><input id="state" type="text" placeholder="enter state" class="form-control border-success"></td>
+    </tr>
+    <tr>
+    <td><label>Nationality:</label></td>
+    <td><input id="Nationality"  type="text" placeholder="enter nationality" class="form-control border-success"></td>
+        </tr>
+    <tr>
+        <td><label>Aadhar no:</label></td>
+        <td><input id="Aadharno" type="text" placeholder="enter Aadhar" class="form-control border-success"></td>
+    </tr>
+    <tr>
+        <td><label>pin code:</label></td>
+        <td><input id="pincode" type="text"placeholder="enter pin no" class="form-control border-success"></td>
+    </tr>
+   
+
+    </table>
+    <button type="button" class="btn btn-primary" onclick="show()">Register</button> <a href="srr.html">qqq</a>
+    
+   
+    
+</body>
+</html>

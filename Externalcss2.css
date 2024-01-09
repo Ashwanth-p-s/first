@@ -1,0 +1,31 @@
+h1 {
+    background-color: black;
+    color: white;
+    
+}    
+
+
+
+h2{
+    color:chocolate;
+    text-decoration: overline;
+}
+h3{
+    color: chartreuse ;
+    text-transform: lowercase;
+}
+h4{
+    color: cornflowerblue;
+    text-transform: capitalize;
+
+}
+body {
+    
+    background-image: url("imagess/FB_IMG_1524965220848.jpg");
+    background-position:center;
+    background-repeat: no-repeat; 
+    background-position:150px100px; 
+
+    
+
+}

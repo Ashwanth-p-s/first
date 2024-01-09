@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add(){
+            let a=parseInt(document.getElementById("num1").value);
+            let b=parseInt(document.getElementById("num2").value);
+            console.log(a+b);
+            alert("add"+(a+b))}
+            function sub(){
+            let a=parseInt(document.getElementById("num1").value);
+            let b=parseInt(document.getElementById("num2").value);
+            console.log(a-b);
+            alert("sub"+(a-b))}
+            function mul(){
+            let a=parseInt(document.getElementById("num1").value);
+            let b=parseInt(document.getElementById("num2").value);
+            console.log(a*b);
+            alert("mul"+(a*b))}
+            function mod(){
+            let a=parseInt(document.getElementById("num1").value);
+            let b=parseInt(document.getElementById("num2").value);
+            console.log(a%b);
+            alert("mod"+(a%b))
+        }
+    </script>
+    
+</head>
+<body>
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+    <input type="button" onclick="add()" value="add">
+    <input type="button" onclick="sub()" value="sub">
+    <input type="button" onclick="mul()" value="mul">
+    <input type="button" onclick="mod()" value="mod">
+</body>
+</html>

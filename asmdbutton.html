@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><labal>first no:</labal></td>
+            <td><input type="text" id="first"></td>
+        </tr>
+        <tr>
+            <td><labal>seco no:</labal></td>
+            <td><input type="text" id="sec"></td>
+        </tr>
+        <tr>
+            <td><label>result no:</label></td>
+            <td><input type="text" id="result"></td>
+        </tr>
+        <tr>
+        <td><input type="button" onclick="add()" value="add">
+        <input type="button" onclick="sub()" value="sub">
+        <input type="button" onclick="mul()" value="mul">
+        <input type="button" onclick="div()" value="div"></td>
+        </tr>
+        <script>
+            function add()
+            {
+                let a=parseInt(document.getElementById("first").value)
+                let b=parseInt(document.getElementById("sec").value)
+                console.log(a+b) 
+                document.getElementById("result").value=a+b     
+            }
+            function sub()
+            {
+                let a=parseInt(document.getElementById("first").value)
+                let b=parseInt(document.getElementById("sec").value)
+                console.log(a-b)
+                document.getElementById("result").value=a-b                 
+            }
+            function mul()
+            {
+                let a=parseInt(document.getElementById("first").value)
+                let b=parseInt(document.getElementById("sec").value)
+                console.log(a*b) 
+                document.getElementById("result").value=a*b               
+            }
+            function div()
+            {
+                let a=parseInt(document.getElementById("first").value)
+                let b=parseInt(document.getElementById("sec").value)
+                console.log(a/b)  
+                document.getElementById("result").value=a/b  
+            }
+        </script>
+    </table>
+</body>
+</html>

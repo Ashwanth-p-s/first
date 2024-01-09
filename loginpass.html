@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <h1>login page</h1>
+            <td><labour>login</labour></td>
+            <td><input type="text" placeholder="exter name" id="uname"></td>
+        </tr>
+        <tr>
+            <td><labour>password</labour></td>
+            <td><input type="text" placeholder="exter password" id="pass"></td> 
+        </tr>
+         <tr>
+            <td><input type="button" value="login" onclick="show()"></td>
+        </tr>
+        <script>
+            function show()
+             {
+                let un=document.getElementById("uname").value
+                let pa=document.getElementById("pass").value
+                console.log("hello world",un,pa)
+            
+            let uname="ashwanth"
+            let password='12345'
+            if(un==(uname))
+            {
+                if(pa==(password))
+                     alert("login success")            
+            }
+            else if(un!=(uname))
+            {
+                alert("user not found")
+            }
+                {
+                    (pa!=(password))
+                }
+               alert("password dismatch")
+            }
+    
+
+        </script>
+    </table>
+</body>
+</html>

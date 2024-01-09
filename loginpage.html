@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function sum(){
+            let a=parseInt(document.getElementById("num1").value);
+            let b=parseInt(document.getElementById("num2").value);
+            console.log(a+b);
+            alert("sum"+(a+b))}
+            function differance(){
+            let a=parseInt(document.getElementById("num1").value);
+            let b=parseInt(document.getElementById("num2").value);
+            console.log(a-b);
+            alert("diff"+(a-b))}
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+    <h1>login page</h1>
+    <td><label>name</label></td>
+    <td><input type="text" placeholder="enter name"></td>
+    </tr>
+    <tr>
+    <td><label>password</label></td><br>
+    <td><input type="text" placeholder="enter password"></td><br>
+    <td><input type="button"  value="enter"></td>
+    </tr>
+    <tr>
+        <td><label>enter two numbers:</label></td>
+       <td><input type="number" id="num1"></td> 
+        <td><input type="number" id="num2"></td>
+         <td><input type="button" onclick="sum()" value="sum"></td>
+        <td><input type="button" onclick="differance()" value="differance"></td>
+    </tr>
+    <tr>
+        <td><label>sum is</label></td>
+       
+        
+    </tr>
+    </table>
+</body>
+</html>
